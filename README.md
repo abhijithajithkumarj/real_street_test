@@ -18,7 +18,7 @@ This is a Spring Boot application for uploading and managing multimedia files su
 - MySQL (for database operations)
 
 ## Prerequisites
-- Java 11 or above installed
+- Java 17 or above installed
 - Maven installed
 - A Cloudinary account (for cloud storage)
 
