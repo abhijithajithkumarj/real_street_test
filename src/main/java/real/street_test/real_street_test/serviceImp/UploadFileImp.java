@@ -46,11 +46,14 @@ public class UploadFileImp implements UploadFile {
 
     }
 
+
+
     @Override
     public String uploadImage(MultipartFile imageFile) {
         try {
              Map imageData=cloudinaryServiceImp.upload(imageFile,"image_realsreet");
-            System.out.println(imageData);
+
+
             if (imageData != null) {
                 Image file = new Image();
                 file.setImagePublicId((String) imageData.get("public_id"));
@@ -68,13 +71,18 @@ public class UploadFileImp implements UploadFile {
         }
     }
 
+
+
+
     @Override
     public String uploadAudio(MultipartFile audioFile) {
 
-        System.out.println(audioFile.isEmpty());
+
+
         try {
             Map audioData = cloudinaryServiceImp.uploadAudio(audioFile,"audio_realsreet");
-            System.out.println(audioData);
+
+
             if (audioData != null) {
                 Audio file = new Audio();
                 file.setAudioPublicId((String) audioData.get("public_id"));
@@ -92,11 +100,16 @@ public class UploadFileImp implements UploadFile {
         }
     }
 
+
+
+
+
     @Override
     public String uploadVideo(MultipartFile videoFile) {
         try {
             Map videoData = cloudinaryServiceImp.uploadVideo(videoFile,"video_realsreet");
-            System.out.println(videoData);
+
+
             if (videoData != null) {
                 Video file = new Video();
                 file.setVideoPublicId((String) videoData.get("public_id"));
