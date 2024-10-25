@@ -9,7 +9,7 @@ This is a Spring Boot application for uploading and managing multimedia files su
 - Integration with Cloudinary for cloud-based file storage.
 
 ## Technologies Used
-- Java 11+
+- Java 17+
 - Spring Boot
 - Spring Data JPA (for database operations)
 - Cloudinary (for cloud storage)
