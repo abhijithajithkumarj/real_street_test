@@ -9,16 +9,16 @@ This is a Spring Boot application for uploading and managing multimedia files su
 - Integration with Cloudinary for cloud-based file storage.
 
 ## Technologies Used
-- Java 11+
+- Java 17+
 - Spring Boot
 - Spring Data JPA (for database operations)
 - Cloudinary (for cloud storage)
 - JUnit and Mockito (for unit testing)
 - Maven (build tool)
-- H2 Database (for in-memory testing)
+- MySQL (for database operations)
 
 ## Prerequisites
-- Java 11 or above installed
+- Java 17 or above installed
 - Maven installed
 - A Cloudinary account (for cloud storage)
 
