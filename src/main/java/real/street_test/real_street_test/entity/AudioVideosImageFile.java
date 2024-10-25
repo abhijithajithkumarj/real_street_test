@@ -30,5 +30,10 @@ public class AudioVideosImageFile extends BaseEntity {
     private String imagePublicId;
 
 
+    private String createdAudio;
+    private String createdVideo;
+    private String createdImage;
+
+
 
 }
