@@ -15,7 +15,7 @@ This is a Spring Boot application for uploading and managing multimedia files su
 - Cloudinary (for cloud storage)
 - JUnit and Mockito (for unit testing)
 - Maven (build tool)
-- H2 Database (for in-memory testing)
+- MySQL (for database operations)
 
 ## Prerequisites
 - Java 11 or above installed
